@@ -2,10 +2,9 @@ const newFormHandler = async (event) => {
   event.preventDefault();
 
   const name = document.querySelector('#post-title').value.trim();
-  const needed_funding = document.querySelector('#post-funding').value.trim();
   const description = document.querySelector('#post-desc').value.trim();
 
-  if (name && needed_funding && description) {
+  if (name && description) {
     const response = await fetch(`/api/posts`, {
       method: 'POST',
       body: JSON.stringify({ name, needed_funding, description }),
