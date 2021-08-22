@@ -1,11 +1,14 @@
 [
     {
-        "text": "https://docs.python.org/3/ has a tutorial for python 3"
+        "text": "https://docs.python.org/3/ has a tutorial for python 3",
+        "post_id": 1
     },
     {
-        "text": "Try checking out newegg.com"
+        "text": "Try checking out newegg.com",
+        "post_id": 2
     },
     {
-        "text": "I might know somebody, send me your email"
+        "text": "I might know somebody, send me your email",
+        "post_id": 3
     }
 ]
