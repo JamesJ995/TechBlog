@@ -4,7 +4,7 @@ const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
-const mysql = require('mysq2');
+const mysql = require('mysql2');
 const connection = mysql.createConnection(process.env.JAWSDB_URL);
 
 const sequelize = require('./config/connection');
