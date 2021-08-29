@@ -16,6 +16,10 @@ router.post('/', withAuth, async (req, res) => {
 });
 
 router.post('/comment', withAuth, async (req, res) => {
+  if (!req.session) {
+    alert('Please log in to leave a comment');
+    return;
+  }
   try {
     const newComment = await Comment.create({
       text: req.body.text,
