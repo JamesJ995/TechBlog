@@ -14,7 +14,7 @@ Read-write style blog page which allow users to make posts and add comments. Bui
 
 ## Deployment
 
-    https://tech-blog-james-johnson.herokuapp.com/login
+https://tech-blog-james-johnson.herokuapp.com/login
 
     login: mrjam7@gmail.com
     password: password
